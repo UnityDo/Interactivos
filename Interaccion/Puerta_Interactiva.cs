@@ -50,12 +50,12 @@ public class Puerta_Interactiva : MonoBehaviour {
 	}
 	public void Encima()
 	{
-		GameManager.instancia.IconoUsa();
+		GUIManager.instancia.IconoUsa();
 		mira_puerta = true;
 	}
 	public void Sale()
 	{
-		GameManager.instancia.IconoNormal();
+		GUIManager.instancia.IconoNormal();
 		mira_puerta = false;
 	}
 }
